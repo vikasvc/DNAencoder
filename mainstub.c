@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 
-
+//include a consolidated library
 
 #include "conversionFunctions.h"
 #include "encodingFunctions.h"
