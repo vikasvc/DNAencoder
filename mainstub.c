@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include<bits/stdc++.h>
+
+
 
 #include "conversionFunctions.h"
 #include "encodingFunctions.h"
@@ -17,7 +17,7 @@ int main(){
   printf("dec to array of 27\n");
   int *tArray = decToBase3Array(27);
      
-    for(int b = 0; b < 4; b++){
+    for(int b = 0; b < 4; b++)
         printf("%d",tArray[b]);
                 } 
 
